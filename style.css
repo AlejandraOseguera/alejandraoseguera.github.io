@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&display=swap");
+
+body {
+  background-color: rgb(214, 239, 237);
+}
+
+header {
+  background-color: rgb(214, 239, 237);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 15px 0;
+  background-color: rgb(183, 211, 223);
+}
+
+footer {
+  padding: 15px 0;
+  background-color: rgb(201, 187, 207);
+}
+
+h1 {
+  color: rgb(137, 138, 166);
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 0.25em;
+}
+
+a {
+  font-size: 25px;
+  color: rgb(137, 138, 166);
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(112, 112, 168);
+  text-align: center;
+  word-spacing: 0.25em;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(37, 37, 39);
+  line-height: 1;
+}
+
+h5 {
+  color: rgb(74, 74, 139);
+}
+p {
+  color: rgb(30, 30, 32);
+  font-weight: 400;
+}
+
+#bordeimagenesclase {
+  border: solid rgb(137, 138, 166);
+  border-width: 10px;
+}
+
+#logohorizontal {
+  width: 200px;
+  height: 60px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.mapa {
+  width: 250px;
+  height: 250px;
+}
+
+.carousel-item img {
+  width: 50%; 
+  height: auto; 
+}
